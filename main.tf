@@ -61,7 +61,8 @@ module "ecr" {
 
   m_ecr_registry_name = [
     "timeoff",
-    "cidi"
+    "cidi",
+    "base-images"
   ]
   m_ecr_image_tag_mutability = "MUTABLE"
   m_ecr_scan_on_push         = true
