@@ -11,13 +11,13 @@ locals {
         "0.0.0.0/0"
       ]
       description      = "all-traffic"
-      from_port        = -1
+      from_port        = 0
       ipv6_cidr_blocks = []
       prefix_list_ids  = []
       protocol         = "tcp"
       security_groups  = []
       self             = false
-      to_port          = -1
+      to_port          = 0
     },
     {
       cidr_blocks = [
